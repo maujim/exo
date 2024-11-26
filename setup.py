@@ -37,6 +37,11 @@ extras_require = {
     "mlx==0.20.0",
     "mlx-lm==0.19.3",
   ],
+  "docs": [
+    "Sphinx==8.1.3",
+    "sphinx-autodoc-typehints==2.5.0",
+    "sphinx-rtd-theme==3.0.2",
+  ],
 }
 
 # Check if running on macOS with Apple Silicon
