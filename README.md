@@ -98,6 +98,7 @@ source install.sh
 # activate venv, if using one
 pip install -e .[docs]
 make docs
+open docs/build/html/index.html
 ```
 
 
