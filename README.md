@@ -91,6 +91,15 @@ pip install -e .
 source install.sh
 ```
 
+#### Generating local documentation
+
+
+```sh
+# activate venv, if using one
+pip install -e .[docs]
+make docs
+```
+
 
 ### Troubleshooting
 
